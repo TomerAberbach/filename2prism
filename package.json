@@ -1,0 +1,43 @@
+{
+  "name": "filename2prism",
+  "version": "1.0.0",
+  "author": "Tomer Aberbach <tomeraberbach@gmail.com> (https://tomeraberba.ch)",
+  "description": "Converts source code filenames to PrismJS language aliases.",
+  "keywords": [
+    "prismjs",
+    "prism",
+    "ext",
+    "extname",
+    "map",
+    "filename",
+    "file",
+    "source",
+    "code"
+  ],
+  "homepage": "https://github.com/TomerAberbach/filename2prism",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomerAberbach/filename2prism.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TomerAberbach/filename2prism/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && standard-markdown README.md",
+    "publish:git": "git add . && git push --follow-tags",
+    "publish:patch": "npm test && npm version patch -m \"%s\" && npm publish && npm run publish:git",
+    "publish:minor": "npm test && npm version minor -m \"%s\" && npm publish && npm run publish:git",
+    "publish:major": "npm test && npm version major -m \"%s\" && npm publish && npm run publish:git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prismjs": "^1.15.0",
+    "standard": "*",
+    "standard-markdown": "*"
+  }
+}
