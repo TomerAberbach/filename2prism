@@ -1,6 +1,6 @@
 {
   "name": "filename2prism",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Tomer Aberbach <tomeraberbach@gmail.com> (https://tomeraberba.ch)",
   "description": "Converts source code filenames to PrismJS language aliases.",
   "keywords": [
