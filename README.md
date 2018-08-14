@@ -64,6 +64,8 @@ Parameters:
 ## Related
 
  * [prismjs](https://www.npmjs.com/package/prismjs)
+ * [src2img](https://www.npmjs.com/package/src2img)
+ * [src2img-cli](https://www.npmjs.com/package/src2img-cli)
 
 ## Contributing
 
