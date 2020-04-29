@@ -18,56 +18,17 @@ Map a file extension to its associated [PrismJS language aliases](https://prismj
 import filename2prism from 'filename2prism'
 
 console.log(filename2prism('index.mjs'))
-//=> 'javascript'
+//=> ['javascript']
+
+console.log(filename2prism('spaghetti'))
+//=> []
+
+console.log(filename2prism('.bash_history'))
+//=> ['bash']
+
+console.log(filename2prism('file.d'))
+//=> ['d', 'makefile']
 ```
-
-The following reads a directory of source code files, highlights them according to their filenames, and then outputs the results to another directory:
-
-```js
-const path = require('path')
-const fs = require('fs')
-
-const filename2prism = require('filename2prism')
-const prism = require('prismjs')
-require('prismjs/components/')() // Loads all languages
-
-const src = 'path/to/some/src/dir'
-const out = 'path/to/some/out/dir'
-
-fs.readdirSync(src)
-  .filter(name => fs.statSync(path.join(src, name)).isFile())
-  .forEach(name => {
-    let alias = filename2prism(name)
-
-    if (typeof alias === 'undefined') {
-      throw new Error('No matching language found from filename!')
-    }
-
-    if (Array.isArray(alias)) {
-      // Multiple matches found, picked first one for simplicity
-      alias = alias[0]
-    } // else one match was found
-
-    fs.writeFileSync(
-      path.join(out, name),
-      prism.highlight(
-        fs.readFileSync(path.join(src, name)).toString(),
-        prism.languages[alias],
-        alias
-      )
-    )
-  })
-```
-
-## Method
-
-`filename2prism(filename) -> string | Array<string> | undefined`
-
-Returns a PrismJS language alias from a filename. A `string` is returned if there was one match, an `Array<string>` is returned if there were multiple matches, and `undefined` is returned if there was no match.
-
-Parameters:
-
-- `filename` : `string` - The filename to infer a PrismJS alias from.
 
 ## Related
 
