@@ -1,6 +1,6 @@
 # filename2prism
 
-[![NPM version](https://img.shields.io/npm/v/filename2prism.svg)](https://www.npmjs.com/package/filename2prism) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM version](https://img.shields.io/npm/v/filename2prism.svg)](https://www.npmjs.com/package/filename2prism)
 
 > Converts source code filenames to PrismJS language aliases.
 
