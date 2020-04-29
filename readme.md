@@ -12,7 +12,7 @@ $ npm i filename2prism
 
 ## Usage
 
-Map a file extension to its associated [PrismJS language aliases](https://prismjs.com/#supported-languages):
+Map a filename to its associated [PrismJS language aliases](https://prismjs.com/#supported-languages):
 
 ```js
 import filename2prism from 'filename2prism'
