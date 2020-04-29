@@ -12,6 +12,15 @@ $ npm i filename2prism
 
 ## Usage
 
+Map a file extension to its associated [PrismJS language aliases](https://prismjs.com/#supported-languages):
+
+```js
+import filename2prism from 'filename2prism'
+
+console.log(filename2prism('index.mjs'))
+//=> 'javascript'
+```
+
 The following reads a directory of source code files, highlights them according to their filenames, and then outputs the results to another directory:
 
 ```js
@@ -57,13 +66,14 @@ fs.readdirSync(src)
 Returns a PrismJS language alias from a filename. A `string` is returned if there was one match, an `Array<string>` is returned if there were multiple matches, and `undefined` is returned if there was no match.
 
 Parameters:
- * `filename` : `string` - The filename to infer a PrismJS alias from.
+
+- `filename` : `string` - The filename to infer a PrismJS alias from.
 
 ## Related
 
- * [prismjs](https://www.npmjs.com/package/prismjs)
- * [src2img](https://www.npmjs.com/package/src2img)
- * [src2img-cli](https://www.npmjs.com/package/src2img-cli)
+- [prismjs](https://www.npmjs.com/package/prismjs)
+- [src2img](https://www.npmjs.com/package/src2img)
+- [src2img-cli](https://www.npmjs.com/package/src2img-cli)
 
 ## License
 
