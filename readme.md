@@ -38,4 +38,4 @@ console.log(filename2prism('file.d'))
 
 ## License
 
-[MIT](https://github.com/TomerAberbach/filename2prism/blob/master/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
+[MIT](https://github.com/TomerAberbach/filename2prism/blob/main/license) © [Tomer Aberbach](https://github.com/TomerAberbach)
