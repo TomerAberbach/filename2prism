@@ -1,5 +1,5 @@
 import path from 'path'
-import languages from './languages'
+import languages from './languages.js'
 
 const filenames = {}
 const extnames = {}

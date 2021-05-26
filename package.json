@@ -24,36 +24,65 @@
     "url": "https://github.com/TomerAberbach/filename2prism/issues"
   },
   "license": "MIT",
-  "main": "lib/filename2prism.js",
-  "module": "lib/filename2prism.mjs",
   "files": [
-    "lib",
-    "license"
+    "src"
   ],
+  "type": "module",
+  "engines": {
+    "node": ">= 12.17"
+  },
+  "exports": "./src/index.js",
+  "module": "./src/index.js",
+  "types": "./src/index.d.ts",
   "scripts": {
-    "lint:eslint:base": "eslint -c ./eslint.config.js --cache --ext js --ignore-path .gitignore",
-    "lint:eslint": "pnpm run lint:eslint:base -- --fix .",
-    "lint:prettier:base": "prettier --loglevel silent",
-    "lint:prettier": "pnpm run lint:prettier:base -- --write .",
+    "prepare": "pnpx --no-install simple-git-hooks",
+    "lint:prettier:base": "prettier --loglevel silent --ignore-path .gitignore",
+    "lint:prettier": "run-s \"lint:prettier:base -- --write .\"",
+    "lint:eslint:base": "eslint --cache --ext js --ignore-path .gitignore",
+    "lint:eslint": "run-s \"lint:eslint:base -- --fix .\"",
     "lint": "run-s lint:*",
-    "test": "ava",
-    "build": "microbundle -i src/index.js -o lib -f es,cjs --target node"
+    "test:js": "ava",
+    "test:ts": "tsd",
+    "test": "run-s test:*",
+    "coverage": "c8 run-s test:js"
+  },
+  "prettier": "@tomer/prettier-config",
+  "eslintConfig": {
+    "extends": "@tomer"
+  },
+  "lint-staged": {
+    "*.js": [
+      "run-s \"lint:prettier:base -- --write {@}\" --",
+      "run-s \"lint:eslint:base -- --fix {@}\" --"
+    ],
+    "*.ts": "run-s \"lint:prettier:base -- --write {@}\" --",
+    "*.{json,yml,md}": "run-s \"lint:prettier:base -- --write {@}\" --"
+  },
+  "tsd": {
+    "directory": "./test"
+  },
+  "commitlint": {
+    "extends": "@commitlint/config-conventional"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpx --no-install lint-staged",
+    "commit-msg": "pnpx --no-install commitlint -e"
   },
   "devDependencies": {
-    "@ava/babel": "^1.0.1",
-    "@babel/core": "^7.9.0",
-    "@babel/register": "^7.9.0",
-    "ava": "^3.8.1",
-    "babel-eslint": "10.1.0",
-    "core-js": "^3.6.5",
-    "eslint": "6.8.0",
-    "eslint-config-prettier": "6.11.0",
-    "eslint-plugin-ava": "10.3.0",
-    "eslint-plugin-prettier": "3.1.3",
-    "microbundle": "^0.11.0",
-    "npm-run-all": "^4.1.5",
-    "prettier": "2.0.5",
-    "prismjs": "^1.20.0",
-    "regenerator-runtime": "^0.13.5"
+    "@commitlint/cli": "12.1.4",
+    "@commitlint/config-conventional": "12.1.4",
+    "@tomer/eslint-config": "0.1.1",
+    "@tomer/prettier-config": "0.1.0",
+    "ava": "3.15.0",
+    "ava-fast-check": "4.0.2",
+    "c8": "7.7.2",
+    "eslint": "7.27.0",
+    "fast-check": "2.14.0",
+    "lint-staged": "11.0.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.3.0",
+    "simple-git-hooks": "2.4.1",
+    "tsd": "0.15.1",
+    "typescript": "4.3.2"
   }
 }
