@@ -1,47 +1,47 @@
 const languages = {
   abap: {
     filenames: [],
-    extnames: [`abap`]
+    extnames: [`abap`],
   },
   actionscript: {
     filenames: [],
-    extnames: [`as`]
+    extnames: [`as`],
   },
   ada: {
     filenames: [],
-    extnames: [`ada`, `adb`, `ads`]
+    extnames: [`ada`, `adb`, `ads`],
   },
   apacheconf: {
     filenames: [`.htaccess`, `apache2.conf`, `httpd.conf`],
-    extnames: [`apacheconf`, `vhost`]
+    extnames: [`apacheconf`, `vhost`],
   },
   apl: {
     filenames: [],
-    extnames: [`apl`, `dyalog`]
+    extnames: [`apl`, `dyalog`],
   },
   applescript: {
     filenames: [],
-    extnames: [`applescript`, `scpt`]
+    extnames: [`applescript`, `scpt`],
   },
   arff: {
     filenames: [],
-    extnames: [`arff`]
+    extnames: [`arff`],
   },
   asciidoc: {
     filenames: [],
-    extnames: [`asciidoc`, `adoc`, `asc`]
+    extnames: [`asciidoc`, `adoc`, `asc`],
   },
   asm6502: {
     filenames: [],
-    extnames: [`asm`]
+    extnames: [`asm`],
   },
   autohotkey: {
     filenames: [],
-    extnames: [`ahk`, `ahkl`]
+    extnames: [`ahk`, `ahkl`],
   },
   autoit: {
     filenames: [],
-    extnames: [`au3`]
+    extnames: [`au3`],
   },
   bash: {
     filenames: [
@@ -71,7 +71,7 @@ const languages = {
       `zlogout`,
       `zprofile`,
       `zshenv`,
-      `zshrc`
+      `zshrc`,
     ],
     extnames: [
       `sh`,
@@ -83,36 +83,36 @@ const languages = {
       `ksh`,
       `tmux`,
       `tool`,
-      `zsh`
-    ]
+      `zsh`,
+    ],
   },
   basic: {
     filenames: [],
-    extnames: [`vb`, `bas`, `cls`, `frm`, `frx`, `vba`, `vbhtml`, `vbs`]
+    extnames: [`vb`, `bas`, `cls`, `frm`, `frx`, `vba`, `vbhtml`, `vbs`],
   },
   batch: {
     filenames: [],
-    extnames: [`bat`, `cmd`]
+    extnames: [`bat`, `cmd`],
   },
   bison: {
     filenames: [],
-    extnames: [`bison`]
+    extnames: [`bison`],
   },
   brainfuck: {
     filenames: [],
-    extnames: [`b`, `bf`]
+    extnames: [`b`, `bf`],
   },
   bro: {
     filenames: [],
-    extnames: [`bro`]
+    extnames: [`bro`],
   },
   c: {
     filenames: [],
-    extnames: [`c`, `cats`, `h`, `idc`]
+    extnames: [`c`, `cats`, `h`, `idc`],
   },
   csharp: {
     filenames: [],
-    extnames: [`cs`, `cake`, `cshtml`, `csx`]
+    extnames: [`cs`, `cake`, `cshtml`, `csx`],
   },
   cpp: {
     filenames: [],
@@ -133,12 +133,12 @@ const languages = {
       `ipp`,
       `re`,
       `tcc`,
-      `tpp`
-    ]
+      `tpp`,
+    ],
   },
   coffeescript: {
     filenames: [`Cakefile`],
-    extnames: [`coffee`, `_coffee`, `cake`, `cjsx`, `iced`]
+    extnames: [`coffee`, `_coffee`, `cake`, `cjsx`, `iced`],
   },
   clojure: {
     filenames: [`riemann.config`],
@@ -151,72 +151,72 @@ const languages = {
       `cljs.hl`,
       `cljscm`,
       `cljx`,
-      `hic`
-    ]
+      `hic`,
+    ],
   },
   crystal: {
     filenames: [],
-    extnames: [`cr`]
+    extnames: [`cr`],
   },
   css: {
     filenames: [],
-    extnames: [`css`]
+    extnames: [`css`],
   },
   d: {
     filenames: [],
-    extnames: [`d`, `di`]
+    extnames: [`d`, `di`],
   },
   dart: {
     filenames: [],
-    extnames: [`dart`]
+    extnames: [`dart`],
   },
   diff: {
     filenames: [],
-    extnames: [`diff`, `patch`]
+    extnames: [`diff`, `patch`],
   },
   django: {
     filenames: [],
-    extnames: [`jinja`, `jinja2`, `mustache`, `njk`]
+    extnames: [`jinja`, `jinja2`, `mustache`, `njk`],
   },
   docker: {
     filenames: [`Dockerfile`],
-    extnames: [`dockerfile`]
+    extnames: [`dockerfile`],
   },
   eiffel: {
     filenames: [],
-    extnames: [`e`]
+    extnames: [`e`],
   },
   elixir: {
     filenames: [`mix.lock`],
-    extnames: [`ex`, `exs`]
+    extnames: [`ex`, `exs`],
   },
   elm: {
     filenames: [],
-    extnames: [`elm`]
+    extnames: [`elm`],
   },
   erb: {
     filenames: [],
-    extnames: [`erb`]
+    extnames: [`erb`],
   },
   erlang: {
     filenames: [`Emakefile`, `rebar.config`, `rebar.config.lock`, `rebar.lock`],
-    extnames: [`erl`, `app.src`, `es`, `escript`, `hrl`, `xrl`, `yrl`]
+    extnames: [`erl`, `app.src`, `es`, `escript`, `hrl`, `xrl`, `yrl`],
   },
   fsharp: {
     filenames: [],
-    extnames: [`fs`, `fsi`, `fsx`]
+    extnames: [`fs`, `fsi`, `fsx`],
   },
   fortran: {
     filenames: [],
-    extnames: [`f90`, `f`, `f03`, `f08`, `f77`, `f95`, `for`, `fpp`]
+    extnames: [`f90`, `f`, `f03`, `f08`, `f77`, `f95`, `for`, `fpp`],
   },
   gedcom: {
     filenames: [],
-    extnames: [`ged`]
+    extnames: [`ged`],
   },
   gherkin: {
     filenames: [],
-    extnames: [`feature`]
+    extnames: [`feature`],
   },
   glsl: {
     filenames: [],
@@ -238,64 +238,64 @@ const languages = {
       `vert`,
       `vrx`,
       `vsh`,
-      `vshader`
-    ]
+      `vshader`,
+    ],
   },
   go: {
     filenames: [],
-    extnames: [`go`]
+    extnames: [`go`],
   },
   graphql: {
     filenames: [],
-    extnames: [`graphql`, `gql`]
+    extnames: [`graphql`, `gql`],
   },
   groovy: {
     filenames: [`Jenkinsfile`],
-    extnames: [`groovy`, `grt`, `gtpl`, `gvy`]
+    extnames: [`groovy`, `grt`, `gtpl`, `gvy`],
   },
   haml: {
     filenames: [],
-    extnames: [`haml`]
+    extnames: [`haml`],
   },
   handlebars: {
     filenames: [],
-    extnames: [`handlebars`, `hbs`]
+    extnames: [`handlebars`, `hbs`],
   },
   haskell: {
     filenames: [],
-    extnames: [`hs`, `hsc`]
+    extnames: [`hs`, `hsc`],
   },
   haxe: {
     filenames: [],
-    extnames: [`hx`, `hxsl`]
+    extnames: [`hx`, `hxsl`],
   },
   http: {
     filenames: [],
-    extnames: [`http`]
+    extnames: [`http`],
   },
   icon: {
     filenames: [],
-    extnames: [`icn`]
+    extnames: [`icn`],
   },
   inform7: {
     filenames: [],
-    extnames: [`ni`, `i7x`]
+    extnames: [`ni`, `i7x`],
   },
   ini: {
     filenames: [`.editorconfig`, `.gitconfig`],
-    extnames: [`ini`, `cfg`, `lektorproject`, `prefs`, `pro`, `properties`]
+    extnames: [`ini`, `cfg`, `lektorproject`, `prefs`, `pro`, `properties`],
   },
   io: {
     filenames: [],
-    extnames: [`io`]
+    extnames: [`io`],
   },
   j: {
     filenames: [],
-    extnames: [`ijs`]
+    extnames: [`ijs`],
   },
   java: {
     filenames: [],
-    extnames: [`java`]
+    extnames: [`java`],
   },
   javascript: {
     filenames: [`Jakefile`],
@@ -320,12 +320,12 @@ const languages = {
       `sjs`,
       `ssjs`,
       `xsjs`,
-      `xsjslib`
-    ]
+      `xsjslib`,
+    ],
   },
   jolie: {
     filenames: [],
-    extnames: [`ol`, `iol`]
+    extnames: [`ol`, `iol`],
   },
   json: {
     filenames: [
@@ -334,7 +334,7 @@ const languages = {
       `.tern-config`,
       `.tern-project`,
       `composer.lock`,
-      `mcmod.info`
+      `mcmod.info`,
     ],
     extnames: [
       `json`,
@@ -348,20 +348,20 @@ const languages = {
       `webapp`,
       `webmanifest`,
       `yy`,
-      `yyp`
-    ]
+      `yyp`,
+    ],
   },
   julia: {
     filenames: [],
-    extnames: [`jl`]
+    extnames: [`jl`],
   },
   keyman: {
     filenames: [],
-    extnames: [`kmn`]
+    extnames: [`kmn`],
   },
   kotlin: {
     filenames: [],
-    extnames: [`kt`, `ktm`, `kts`]
+    extnames: [`kt`, `ktm`, `kts`],
   },
   latex: {
     filenames: [],
@@ -380,32 +380,32 @@ const languages = {
       `mkiv`,
       `mkvi`,
       `sty`,
-      `toc`
-    ]
+      `toc`,
+    ],
   },
   less: {
     filenames: [],
-    extnames: [`less`]
+    extnames: [`less`],
   },
   liquid: {
     filenames: [],
-    extnames: [`liquid`]
+    extnames: [`liquid`],
   },
   lisp: {
     filenames: [],
-    extnames: [`lisp`, `asd`, `cl`, `l`, `lsp`, `ny`, `podsl`, `sexp`]
+    extnames: [`lisp`, `asd`, `cl`, `l`, `lsp`, `ny`, `podsl`, `sexp`],
   },
   livescript: {
     filenames: [`Slakefile`],
-    extnames: [`ls`, `_ls`]
+    extnames: [`ls`, `_ls`],
   },
   lolcode: {
     filenames: [],
-    extnames: [`lol`]
+    extnames: [`lol`],
   },
   lua: {
     filenames: [],
-    extnames: [`lua`, `fcgi`, `nse`, `p8`, `pd_lua`, `rbxs`, `wlua`]
+    extnames: [`lua`, `fcgi`, `nse`, `p8`, `pd_lua`, `rbxs`, `wlua`],
   },
   makefile: {
     filenames: [
@@ -421,9 +421,9 @@ const languages = {
       `Makefile.wat`,
       `makefile`,
       `makefile.sco`,
-      `mkfile`
+      `mkfile`,
     ],
-    extnames: [`mak`, `d`, `make`, `mk`, `mkfile`]
+    extnames: [`mak`, `d`, `make`, `mk`, `mkfile`],
   },
   markdown: {
     filenames: [`contents.lr`, `LICENSE`],
@@ -436,8 +436,8 @@ const languages = {
       `mkdn`,
       `mkdown`,
       `ronn`,
-      `workbook`
-    ]
+      `workbook`,
+    ],
   },
   markup: {
     filenames: [],
@@ -462,68 +462,68 @@ const languages = {
       `rhtml`,
       `vue`,
       `xht`,
-      `xhtml`
-    ]
+      `xhtml`,
+    ],
   },
   matlab: {
     filenames: [],
-    extnames: [`matlab`, `m`]
+    extnames: [`matlab`, `m`],
   },
   mel: {
     filenames: [],
-    extnames: [`mel`]
+    extnames: [`mel`],
   },
   mizar: {
     filenames: [],
-    extnames: [`miz`, `voc`]
+    extnames: [`miz`, `voc`],
   },
   monkey: {
     filenames: [],
-    extnames: [`monkey`, `monkey2`]
+    extnames: [`monkey`, `monkey2`],
   },
   n4js: {
     filenames: [],
-    extnames: [`n4jsd`]
+    extnames: [`n4jsd`],
   },
   nasm: {
     filenames: [],
-    extnames: [`nasm`]
+    extnames: [`nasm`],
   },
   nginx: {
     filenames: [`nginx.conf`],
-    extnames: [`nginxconf`, `vhost`]
+    extnames: [`nginxconf`, `vhost`],
   },
   nim: {
     filenames: [],
-    extnames: [`nim`, `nimrod`]
+    extnames: [`nim`, `nimrod`],
   },
   nix: {
     filenames: [],
-    extnames: [`nix`]
+    extnames: [`nix`],
   },
   nsis: {
     filenames: [],
-    extnames: [`nsi`, `nsh`]
+    extnames: [`nsi`, `nsh`],
   },
   objectivec: {
     filenames: [],
-    extnames: [`m`, `h`]
+    extnames: [`m`, `h`],
   },
   ocaml: {
     filenames: [],
-    extnames: [`ml`, `eliom`, `eliomi`, `ml4`, `mli`, `mll`, `mly`]
+    extnames: [`ml`, `eliom`, `eliomi`, `ml4`, `mli`, `mll`, `mly`],
   },
   opencl: {
     filenames: [],
-    extnames: [`opencl`, `cl`]
+    extnames: [`opencl`, `cl`],
   },
   oz: {
     filenames: [],
-    extnames: [`oz`]
+    extnames: [`oz`],
   },
   pascal: {
     filenames: [],
-    extnames: [`pas`, `dfm`, `dpr`, `inc`, `lpr`, `pascal`, `pp`]
+    extnames: [`pas`, `dfm`, `dpr`, `inc`, `lpr`, `pascal`, `pp`],
   },
   perl: {
     filenames: [`Makefile.PL`, `Rexfile`, `ack`, `cpanfile`],
@@ -537,8 +537,8 @@ const languages = {
       `plx`,
       `pm`,
       `psgi`,
-      `t`
-    ]
+      `t`,
+    ],
   },
   php: {
     filenames: [`.php`, `.php_cs`, `.php_cs.dist`, `Phakefile`],
@@ -552,8 +552,8 @@ const languages = {
       `php4`,
       `php5`,
       `phps`,
-      `phpt`
-    ]
+      `phpt`,
+    ],
   },
   plsql: {
     filenames: [],
@@ -573,40 +573,40 @@ const languages = {
       `tpb`,
       `tps`,
       `trg`,
-      `vw`
-    ]
+      `vw`,
+    ],
   },
   powershell: {
     filenames: [],
-    extnames: [`ps1`, `psd1`, `psm1`]
+    extnames: [`ps1`, `psd1`, `psm1`],
   },
   processing: {
     filenames: [],
-    extnames: [`pde`]
+    extnames: [`pde`],
   },
   prolog: {
     filenames: [],
-    extnames: [`pl`, `pro`, `prolog`, `yap`]
+    extnames: [`pl`, `pro`, `prolog`, `yap`],
   },
   properties: {
     filenames: [],
-    extnames: [`properties`]
+    extnames: [`properties`],
   },
   protobuf: {
     filenames: [],
-    extnames: [`proto`]
+    extnames: [`proto`],
   },
   pug: {
     filenames: [],
-    extnames: [`jade`, `pug`]
+    extnames: [`jade`, `pug`],
   },
   puppet: {
     filenames: [`Modulefile`],
-    extnames: [`pp`]
+    extnames: [`pp`],
   },
   pure: {
     filenames: [],
-    extnames: [`pure`]
+    extnames: [`pure`],
   },
   python: {
     filenames: [
@@ -618,7 +618,7 @@ const languages = {
       `SConstruct`,
       `Snakefile`,
       `WORKSPACE`,
-      `wscript`
+      `wscript`,
     ],
     extnames: [
       `py`,
@@ -638,44 +638,44 @@ const languages = {
       `spec`,
       `tac`,
       `wsgi`,
-      `xpy`
-    ]
+      `xpy`,
+    ],
   },
   q: {
     filenames: [],
-    extnames: [`q`]
+    extnames: [`q`],
   },
   qore: {
     filenames: [],
-    extnames: [`q`, `qm`, `qtest`]
+    extnames: [`q`, `qm`, `qtest`],
   },
   r: {
     filenames: [`.Rprofile`, `expr-dist`],
-    extnames: [`r`, `rd`, `rsx`]
+    extnames: [`r`, `rd`, `rsx`],
   },
   jsx: {
     filenames: [],
-    extnames: [`jsx`]
+    extnames: [`jsx`],
   },
   tsx: {
     filenames: [],
-    extnames: [`tsx`]
+    extnames: [`tsx`],
   },
   renpy: {
     filenames: [],
-    extnames: [`rpy`]
+    extnames: [`rpy`],
   },
   reason: {
     filenames: [],
-    extnames: [`re`, `rei`]
+    extnames: [`re`, `rei`],
   },
   rest: {
     filenames: [],
-    extnames: [`rst`, `rest`]
+    extnames: [`rst`, `rest`],
   },
   rip: {
     filenames: [],
-    extnames: [`rip`]
+    extnames: [`rip`],
   },
   ruby: {
     filenames: [
@@ -700,7 +700,7 @@ const languages = {
       `Snapfile`,
       `Thorfile`,
       `Vagrantfile`,
-      `buildfile`
+      `buildfile`,
     ],
     extnames: [
       `rb`,
@@ -722,88 +722,88 @@ const languages = {
       `ruby`,
       `spec`,
       `thor`,
-      `watchr`
-    ]
+      `watchr`,
+    ],
   },
   rust: {
     filenames: [],
-    extnames: [`rs`]
+    extnames: [`rs`],
   },
   sas: {
     filenames: [],
-    extnames: [`sas`]
+    extnames: [`sas`],
   },
   sass: {
     filenames: [],
-    extnames: [`sass`]
+    extnames: [`sass`],
   },
   scss: {
     filenames: [],
-    extnames: [`scss`]
+    extnames: [`scss`],
   },
   scala: {
     filenames: [],
-    extnames: [`scala`, `kojo`, `sbt`, `sc`]
+    extnames: [`scala`, `kojo`, `sbt`, `sc`],
   },
   scheme: {
     filenames: [],
-    extnames: [`scm`, `sch`, `sld`, `sls`, `sps`, `ss`]
+    extnames: [`scm`, `sch`, `sld`, `sls`, `sps`, `ss`],
   },
   smalltalk: {
     filenames: [],
-    extnames: [`st`, `cs`]
+    extnames: [`st`, `cs`],
   },
   smarty: {
     filenames: [],
-    extnames: [`tpl`]
+    extnames: [`tpl`],
   },
   sql: {
     filenames: [],
-    extnames: [`sql`, `cql`, `ddl`, `inc`, `mysql`, `prc`, `tab`, `udf`, `viw`]
+    extnames: [`sql`, `cql`, `ddl`, `inc`, `mysql`, `prc`, `tab`, `udf`, `viw`],
   },
   soy: {
     filenames: [],
-    extnames: [`soy`]
+    extnames: [`soy`],
   },
   stylus: {
     filenames: [],
-    extnames: [`styl`]
+    extnames: [`styl`],
   },
   swift: {
     filenames: [],
-    extnames: [`swift`]
+    extnames: [`swift`],
   },
   tcl: {
     filenames: [`owh`, `starfield`],
-    extnames: [`tcl`, `adp`, `tm`]
+    extnames: [`tcl`, `adp`, `tm`],
   },
   textile: {
     filenames: [],
-    extnames: [`textile`]
+    extnames: [`textile`],
   },
   tt2: {
     filenames: [],
-    extnames: [`pm`]
+    extnames: [`pm`],
   },
   twig: {
     filenames: [],
-    extnames: [`twig`]
+    extnames: [`twig`],
   },
   typescript: {
     filenames: [],
-    extnames: [`ts`]
+    extnames: [`ts`, `mts`, `cts`],
   },
   velocity: {
     filenames: [],
-    extnames: [`vm`]
+    extnames: [`vm`],
   },
   verilog: {
     filenames: [],
-    extnames: [`v`, `veo`]
+    extnames: [`v`, `veo`],
   },
   vhdl: {
     filenames: [],
-    extnames: [`vhdl`, `vhd`, `vhf`, `vhi`, `vho`, `vhs`, `vht`, `vhw`]
+    extnames: [`vhdl`, `vhd`, `vhf`, `vhi`, `vho`, `vhs`, `vht`, `vhw`],
   },
   vim: {
     filenames: [
@@ -813,17 +813,17 @@ const languages = {
       `_vimrc`,
       `gvimrc`,
       `nvimrc`,
-      `vimrc`
+      `vimrc`,
     ],
-    extnames: [`vim`]
+    extnames: [`vim`],
   },
   'visual-basic': {
     filenames: [],
-    extnames: [`vb`, `bas`, `cls`, `frm`, `frx`, `vba`, `vbhtml`, `vbs`]
+    extnames: [`vb`, `bas`, `cls`, `frm`, `frx`, `vba`, `vbhtml`, `vbs`],
   },
   wasm: {
     filenames: [],
-    extnames: [`wast`, `wat`]
+    extnames: [`wast`, `wat`],
   },
   xojo: {
     filenames: [],
@@ -833,12 +833,12 @@ const languages = {
       `xojo_report`,
       `xojo_script`,
       `xojo_toolbar`,
-      `xojo_window`
-    ]
+      `xojo_window`,
+    ],
   },
   xquery: {
     filenames: [],
-    extnames: [`xquery`, `xq`, `xql`, `xqm`, `xqy`]
+    extnames: [`xquery`, `xq`, `xql`, `xqm`, `xqy`],
   },
   yaml: {
     filenames: [`.clang-format`, `.clang-tidy`, `.gemrc`, `glide.lock`],
@@ -850,9 +850,9 @@ const languages = {
       `sublime-syntax`,
       `syntax`,
       `yaml`,
-      `yaml-tmlanguage`
-    ]
-  }
+      `yaml-tmlanguage`,
+    ],
+  },
 }
 
 export default languages
