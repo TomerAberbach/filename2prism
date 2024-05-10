@@ -7,7 +7,17 @@
     "url": "https://tomeraberba.ch"
   },
   "description": "Converts source code filenames to PrismJS language aliases.",
-  "keywords": [],
+  "keywords": [
+    "prismjs",
+    "prism",
+    "ext",
+    "extname",
+    "map",
+    "filename",
+    "file",
+    "source",
+    "code"
+  ],
   "homepage": "https://github.com/TomerAberbach/filename2prism",
   "repository": "TomerAberbach/filename2prism",
   "bugs": {
