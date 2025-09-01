@@ -1,4 +1,5 @@
-import filename2prism from '../src/index.ts'
+import { expect, test } from 'vitest'
+import filename2prism from './index.ts'
 
 test.each([
   [`spaghetti`, []],

@@ -9,14 +9,14 @@
   <a href="https://github.com/TomerAberbach/filename2prism/actions">
     <img src="https://github.com/TomerAberbach/filename2prism/workflows/CI/badge.svg" alt="CI" />
   </a>
-  <a href="https://unpkg.com/filename2prism/dist/index.min.js">
+  <a href="https://unpkg.com/filename2prism/dist/index.js">
     <img src="https://deno.bundlejs.com/?q=filename2prism&badge" alt="gzip size" />
   </a>
-  <a href="https://unpkg.com/filename2prism/dist/index.min.js">
+  <a href="https://unpkg.com/filename2prism/dist/index.js">
     <img src="https://deno.bundlejs.com/?q=filename2prism&config={%22compression%22:{%22type%22:%22brotli%22}}&badge" alt="brotli size" />
   </a>
   <a href="https://github.com/sponsors/TomerAberbach">
-    <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="Sponsor">
+    <img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" alt="Sponsor" />
   </a>
 </div>
 
